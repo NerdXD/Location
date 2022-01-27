@@ -1,0 +1,10 @@
+name: Loc
+version: 1.0
+main: com.nerdxd.plugin.loc.Main
+api-version: 1.17
+authors: [ NerdXD, ClaraChae ]
+description: /loc to give your location to everyone!
+commands:
+  loc:
+    usage: /<loc>
+    description: /loc to give your location to everyone!
