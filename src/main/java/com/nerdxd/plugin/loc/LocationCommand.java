@@ -29,6 +29,9 @@ public class LocationCommand implements CommandExecutor {
 
                 p.sendMessage("Location of " + name + " is: " + x + ", " + y + ", " + z + ", ");
 
+            } else {
+               Player player = (Player) sender;
+               player.sendMessage(ChatColor.RED + "INVALID USE OF COMMAND: /<command> {playername}");
             }
 
         }
